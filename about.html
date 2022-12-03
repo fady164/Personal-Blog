@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/vendors/all.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/logo.webp" alt="logo" />
+        </a>
+        <button
+          class="btn border-0 d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebar"
+          aria-controls="sidebar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3 active"
+                href="#"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="service.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- sideBar -->
+    <section
+      id="sidebar"
+      class="offcanvas offcanvas-start bg-black bg-opacity-75"
+      tabindex="-1"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-body text-white">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3 active"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="about.html"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="service.html"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="pricing.html"
+              >Pricing</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="blog.html"
+              >Blog</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <main>
+      <!-- banner -->
+      <section class="section banner w-100 h-20 bg-gradient">
+        <div class="container">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1 class="section-title text-light">About</h1>
+            <nav style="--bs-breadcrumb-divider: " aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item text-light">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item text-light">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </li>
+                <li
+                  class="breadcrumb-item active text-light"
+                  aria-current="page"
+                >
+                  About
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <!-- Personal Details -->
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <img class="" src="assets/imgs/about-me.webp" alt="" />
+            </div>
+            <div
+              class="col-md-6 d-flex px-5 flex-column justify-content-evenly"
+            >
+              <p class="section-title-sm">About Me</p>
+              <h2 class="section-title">Personal Details</h2>
+              <p class="text-black-50">
+                Here, I focus on a range of items and features that we use in
+                life without giving them a second thought. such as Coca Cola.
+                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <a class="btn btn-primary col-sm-5 col-md-7 col-lg-5" href=""
+                >VIEW FULL DETAILS</a
+              >
+            </div>
+            <div class="col-12 my-5">
+              <p class="text-black-50">
+                It won’t be a bigger problem to find one video game lover in
+                your neighbor. Since the introduction of Virtual Game, it has
+                been achieving great heights so far as its popularity and
+                technological advancement are concerned. The history of video
+                game is as interesting as a fairy tale.
+              </p>
+              <p class="text-black-50">
+                The quality of today’s video game was not at all there when
+                video game first conceptualized and played ever. During the
+                formulative years, video games were created by using various
+                interactive electronic devices with various display formats. The
+                first ever video game was designed in 1947 by Thomas T.
+                Goldsmith Jr.
+              </p>
+              <h4 class="pt-4">Tools Expertness</h4>
+            </div>
+            <div class="progres row">
+              <div class="col-md-6">
+                <div class="single-skill mb-3">
+                  <p class="text-black-50 mb-2">After Effects 85%</p>
+                  <div class="progress border border-4 rounded-pill">
+                    <div
+                      class="progress-bar rounded-pill bg-gradient"
+                      role="progressbar"
+                      style="width: 85%"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="single-skill mb-3">
+                  <p class="text-black-50 mb-0">Photoshop 90%</p>
+                  <div class="progress border border-4 rounded-pill mt-2">
+                    <div
+                      class="progress-bar rounded-pill bg-gradient"
+                      role="progressbar"
+                      style="width: 90%"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="single-skill">
+                  <p class="text-black-50 mb-2">Illustrator 70%</p>
+                  <div class="progress border border-4 rounded-pill">
+                    <div
+                      class="progress-bar rounded-pill bg-gradient"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-skill mb-3">
+                  <p class="text-black-50 mb-0">Sublime 95%</p>
+                  <div class="progress border border-4 rounded-pill mt-2">
+                    <div
+                      class="progress-bar rounded-pill bg-gradient"
+                      role="progressbar"
+                      style="width: 95%"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="single-skill mb-3">
+                  <p class="text-black-50 mb-0">Sketch 85%</p>
+                  <div class="progress border border-4 rounded-pill mt-2">
+                    <div
+                      class="progress-bar rounded-pill bg-gradient"
+                      role="progressbar"
+                      style="width: 85%"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Qualifications-->
+      <section class="section">
+        <div class="container">
+          <div class="text-center col-10 mx-auto">
+            <h2 class="section-title">My Qualifications</h2>
+            <p class="text-black-50 text-sm">
+              Who are in extremely love with eco friendly system.
+            </p>
+          </div>
+
+          <section>
+            <div class="container py-5">
+              <div class="main-timeline">
+                <div class="timeline right">
+                  <div class="">
+                    <div
+                      class="card-body cardss d-flex flex-column justify-content-between alig text-center p-5"
+                    >
+                      <h5 class="section-title mb-3">
+                        Masters in Graphics & Fine Arts
+                      </h5>
+                      <p class="">
+                        Session: <span class="text-black-50">2010-11</span>
+                      </p>
+                      <p class="mb-0">
+                        Result:<span class="text-black-50"
+                          >3.78 (In the Scale of 4.00)</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline left">
+                  <div class="">
+                    <div
+                      class="card-body cardss d-flex flex-column justify-content-center alig text-center p-5"
+                    >
+                      <div class="mb-3">
+                        <img
+                          src="assets/imgs/timeline.webp"
+                          class="col-3 text-center"
+                          alt=""
+                        />
+                      </div>
+
+                      <h5 class="section-title">Creative Content Developer</h5>
+
+                      <span class="text-black-50">July 2015 to Present</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline right">
+                  <div class="">
+                    <div
+                      class="card-body cardss d-flex flex-column justify-content-between alig text-center p-5"
+                    >
+                      <h5 class="section-title mb-3">
+                        Bachelor in Graphics & UI/UX
+                      </h5>
+                      <p class="">
+                        Session: <span class="text-black-50">2006-09</span>
+                      </p>
+                      <p class="mb-0">
+                        Result:<span class="text-black-50"
+                          >3.40 (In the Scale of 4.00)</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline left">
+                  <div class="">
+                    <div
+                      class="card-body cardss d-flex flex-column justify-content-center alig text-center p-5"
+                    >
+                      <div class="mb-3">
+                        <img
+                          src="assets/imgs/timeline.webp"
+                          class="col-3 text-center"
+                          alt=""
+                        />
+                      </div>
+
+                      <h5 class="section-title">Senior UI/UX Designer</h5>
+
+                      <span class="text-black-50">July 2015 to Present</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline right">
+                  <div class="">
+                    <div
+                      class="card-body cardss d-flex flex-column justify-content-between alig text-center p-5"
+                    >
+                      <h5 class="section-title mb-3">
+                        Diploma in Fine Arts & Printing
+                      </h5>
+                      <p class="">
+                        Session: <span class="text-black-50"> 2003-06</span>
+                      </p>
+                      <p class="mb-0">
+                        Result:<span class="text-black-50"
+                          >4.94 (In the Scale of 5.00)</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <!-- Brands -->
+    <section id="brands" class="bg-gradient section">
+      <div class="container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/xl4.png.pagespeed.ic.YfyS4yjs4I.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/xl2.png.pagespeed.ic.xlIPHLEBLj.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/xl3.png.pagespeed.ic.b3-fSmJvq6.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/xl5.png.pagespeed.ic.Xdg_M3EgpT.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/xl2.png.pagespeed.ic.xlIPHLEBLj.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://preview.colorlib.com/theme/personal/img/xl4.png.pagespeed.ic.YfyS4yjs4I.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section bg-dark text-white">
+      <div class="container">
+        <div class="row gx-0 gy-4 gx-sm-4">
+          <div class="col-sm-6 col-xl-5">
+            <section class="about">
+              <h4 class="text-capitalize mb-4">about me</h4>
+              <p class="text-white-50 text-sm">
+                We have tested a number of registry fix and clean utilities and
+                present our top 3 list on our site for your convenience.
+              </p>
+              <p class="text-white-50 text-sm">
+                Copyright ©2022 All rights reserved | This template is made with
+                by <a href="#" class="text-primary">Colorlib</a>
+              </p>
+            </section>
+          </div>
+          <div class="col-sm-6 col-xl-5">
+            <h4 class="text-capitalize mb-4">news letter</h4>
+            <p class="text-white-50 text-sm">
+              We have tested a number of registry fix and clean utilities and
+              present our top 3 list on our site for your convenience.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control ro"
+                placeholder="Enter Email Address"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <button
+                class="input-group-text bg-secondary text-white border-0"
+                id="basic-addon1"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-2">
+            <h4 class="text-capitalize mb-4">follow me</h4>
+            <p class="text-white-50 text-sm">let us be social</p>
+            <section class="social-links hstack gap-4">
+              <a href="#" class="transition-colors">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-behance"></i>
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/all.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

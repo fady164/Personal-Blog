@@ -1,0 +1,236 @@
+/*
+  General Styles
+ */
+
+:root {
+  --bs-font-sans-serif: Poppins, sans-serif;
+  --bs-primary: #8490ff;
+  --bs-secondary: #62bdfc;
+  --bs-secondary-rgb: 98, 189, 252;
+  --bs-light: #f9f9ff;
+  --bs-dark: #04091e;
+  --bs-dark-rgb: 4, 9, 30;
+  /* Todo: Change direction to (to right) */
+  --bs-gradient: linear-gradient(to right, #8490ff 0%, #62bdfc 100%);
+}
+
+body {
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+div.post-details a {
+  color: gray;
+}
+a:hover,
+div.post-details a:hover {
+  color: var(--bs-primary);
+}
+
+button {
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  border: 0;
+}
+/*
+Components Styles
+*/
+
+.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-title-sm {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  background: var(--bs-gradient);
+  padding: 0.7rem 1.2rem;
+}
+
+.btn-primary:hover {
+  box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+}
+
+.container {
+  --bs-gutter-x: 1.8rem;
+}
+
+/*
+  Utility Classes
+ */
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.fs-7 {
+  font-size: 3rem;
+}
+
+.transition-colors {
+  transition: background 150ms, color 300ms;
+}
+
+.transition-all {
+  transition: all 500ms;
+}
+
+.hide {
+  width: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.navbar {
+  --bs-navbar-active-color: var(--bs-primary);
+  --bs-navbar-color: var(--bs-black);
+}
+.navbar-nav {
+  --bs-nav-link-hover-color: var(--bs-primary);
+}
+
+.nav-link {
+  --bs-nav-link-font-weight: 300;
+}
+
+/* Posts */
+section.posts {
+  background-color: #f9f9ff;
+}
+div.details {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 35px;
+}
+div.types {
+  margin-bottom: 10px;
+}
+button:hover,
+div.page-slider button:hover {
+  background-color: #8490ff;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+div.page-slider button {
+  color: gray;
+}
+
+/* cover photo */
+.cover-photo {
+  background: url("../imgs/cover.webp") bottom;
+  height: 80vh;
+  background-size: cover;
+}
+.index {
+  background-color: #04091ea3;
+}
+.viewMoreBtn {
+  transition: all 0.3s;
+}
+.viewMoreBtn:hover {
+  background-color: transparent !important;
+  border: 1px white solid;
+  color: white;
+}
+
+/* socail life */
+.social-1 {
+  background: url(../imgs/blogmainconten1.webp);
+  background-size: cover;
+}
+.social-2 {
+  background: url(../imgs/blogmainconten2.webp);
+  background-size: cover;
+}
+.social-3 {
+  background: url(../imgs/blogmainconten3.webp);
+  background-size: cover;
+}
+.indexsocial {
+  background-color: #04091ea3;
+}
+.indexsocial:hover {
+  background-color: #8490ffc8;
+}
+
+/* aside */
+/* ----------------- */
+/* search */
+.form-outline {
+  background-color: var(--bs-primary);
+}
+.form-control {
+  background-color: transparent !important;
+}
+.form-outline {
+  border-radius: 25px;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+/* popPost */
+.popPost {
+  background-color: var(--bs-primary);
+}
+
+/* post Category and more */
+
+.tag-cloud-btn {
+  background-color: #fff;
+  color: #222;
+  display: inline-block;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+}
+.tag-cloud-btn:hover,
+.tag-cloud-btn a:hover {
+  background-color: #8490ff;
+  cursor: pointer;
+  color: #fff;
+}
+.comments-area .btn-reply:hover,
+.tag-cloud-ul .btn-reply:hover {
+  background-color: #8490ff;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .single-post-area .sidebar-widgets {
+    padding-bottom: 0px;
+  }
+}
+.category-title {
+  background-color: var(--bs-primary);
+}
